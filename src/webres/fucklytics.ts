@@ -7,10 +7,16 @@ async function main() {
         const linkTags = document.getElementsByTagName('a');
         for (const linkTag of linkTags) {
           if (linkTag.href.endsWith('analytics')) {
-            const root = linkTag.parentElement;
-            if (root !== null && root !== undefined) {
-              root.style.display = 'none';
+            let root: HTMLElement = linkTag; //mostly role==='menuitem'
+
+            if (linkTag.role === 'link') {
+              const parent = linkTag.parentElement;
+              if (parent !== null) {
+                root = parent;
+              }
             }
+
+            root.style.display = 'none';
           }
         }
       }
