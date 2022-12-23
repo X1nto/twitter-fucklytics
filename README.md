@@ -2,6 +2,14 @@
 
 Twitter Fucklytics hides Tweet Analytics buttons because no one ever uses that feature.
 
+![Showcase](repo/showcase.png)
+
+# Installation
+
+## Firefox
+
+[![](repo/get-it-on-firefox.png)](https://addons.mozilla.org/en-US/firefox/addon/twitter-fucklytics/)
+
 # Building
 
 ```
