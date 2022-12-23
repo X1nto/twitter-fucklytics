@@ -1,6 +1,6 @@
 {
   "name": "twitter-fucklytics",
-  "version": "0.2.0",
+  "version": "1.0.1",
   "description": "Hides Twitter analytics buttons.",
   "license": "MIT",
   "private": true,
