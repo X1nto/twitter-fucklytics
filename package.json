@@ -1,0 +1,21 @@
+{
+  "name": "twitter-fucklytics",
+  "version": "0.2.0",
+  "description": "Hides Twitter analytics buttons.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vite build --watch --mode dev",
+    "build": "vite build",
+    "build-chrome": "vite build --mode chrome",
+    "build-firefox": "vite build --mode firefox"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/chrome": "^0.0.202",
+    "@types/node": "18.11.9",
+    "prettier": "2.7.1",
+    "typescript": "4.7.4",
+    "vite": "3.0.4"
+  }
+}
